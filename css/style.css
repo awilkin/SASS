@@ -1,0 +1,88 @@
+.header {
+  position: absolute;
+  top: 235px;
+  width: 100%; }
+  .header .header-content {
+    width: 750px;
+    margin: 20px auto; }
+    .header .header-content h1 {
+      font-size: 200px;
+      color: #ffffff;
+      line-height: 0; }
+    .header .header-content h2 {
+      font-size: 47px;
+      color: #C3047A;
+      line-height: 1.2em;
+      font-weight: lighter; }
+
+body {
+  margin: 0;
+  font-family: "Roboto"; }
+
+.mountain {
+  height: 80vh;
+  background: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.wrap {
+  width: 750px;
+  margin: auto; }
+  .wrap .content {
+    margin: 46px 0 120px;
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: lighter;
+    color: #044D82; }
+    .wrap .content h2 {
+      color: #012245;
+      padding-bottom: 14spx; }
+    .wrap .content .buttons {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between; }
+      .wrap .content .buttons #save_button {
+        color: #ffffff;
+        background-color: #C3047A;
+        text-align: center;
+        padding: 7px 24px;
+        width: 184px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 100;
+        transition: all 0.25s ease; }
+        .wrap .content .buttons #save_button:hover {
+          background-color: #aa036a;
+          color: #ffffff; }
+      .wrap .content .buttons #submit_button {
+        color: #ffffff;
+        background-color: #044D82;
+        text-align: center;
+        padding: 7px 24px;
+        width: 184px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 100;
+        transition: all 0.25s ease; }
+        .wrap .content .buttons #submit_button:hover {
+          background-color: #033e69;
+          color: #ffffff; }
+      .wrap .content .buttons #cancel_button {
+        color: #ffffff;
+        background-color: #d6d6d6;
+        text-align: center;
+        padding: 7px 24px;
+        width: 184px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 100;
+        transition: all 0.25s ease; }
+        .wrap .content .buttons #cancel_button:hover {
+          background-color: #c9c9c9;
+          color: #ffffff; }
+
+/*# sourceMappingURL=style.css.map */

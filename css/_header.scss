@@ -1,0 +1,21 @@
+
+.header {
+  position: absolute;
+  top: 235px;
+  width: 100%;
+  .header-content {
+    width: 750px;
+    margin: 20px auto;
+    h1 {
+      font-size: 200px;
+      color: $white;
+      line-height: 0;
+    }
+    h2 {
+      font-size: 47px;
+      color: $pink;
+      line-height: 1.2em;
+      font-weight: lighter;
+    }
+  }
+}

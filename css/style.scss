@@ -1,0 +1,55 @@
+@import 'colors';
+@import 'button';
+@import 'header';
+
+$font: 'Roboto';
+
+body {
+  margin: 0;
+  font-family: $font;
+}
+
+.mountain {
+  height: 80vh;
+  background: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrap {
+  width: 750px;
+  margin: auto;
+  .content {
+    margin: 46px 0 120px;
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: lighter;
+    color: $blue;
+    h2 {
+      color: $dark-blue;
+      padding-bottom: 14spx;
+    }
+
+    .buttons {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      // div {
+      //   // width: 184px;
+      //   background-color: $yellow;
+      //   // @include button-mix($pink, $white, $pink, $white);
+      // }
+      #save_button {
+        @include button-mix($pink, $white, $pink, $white);
+      }
+      #submit_button {
+        @include button-mix($blue, $white, $blue, $white);
+      }
+      #cancel_button {
+        @include button-mix($gray, $white, $gray, $white);
+      }
+    }
+
+  }
+}
